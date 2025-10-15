@@ -161,7 +161,7 @@ const StudentManager = () => {
             <option value="4">4</option>
           </select>
           <select name="semester" value={student.semester} onChange={handleChange}>
-            <option value="">Select Semester</option>
+            <option value="">Select Sem</option>
             <option value="ODD">ODD</option>
             <option value="EVEN">EVEN</option>
           </select>
